@@ -1,0 +1,30 @@
+.container{
+    min-height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card__climate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(152, 191, 235, 0.667);
+    width: 100%;
+    max-width: 27em;
+    height: 20hw;
+    border-radius: 2em;
+    padding: 20px;
+}
+.information {
+    display: flex;
+    justify-content: center;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
